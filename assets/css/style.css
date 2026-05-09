@@ -1,0 +1,244 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/**/
+/* import css */
+@import "./color.css";
+/**/
+/* font css */
+:root {
+   --font-bebas:Bebas Neue;
+   --font-inter:Inter;
+}
+/* Classes Gerais */
+section.hero-bg {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.menu-navigation {
+    width: 100%;
+    padding:20px 2%;
+    background-color:var(--color-four);
+    border-bottom:1px solid var(--color-five);
+}
+
+.flex-division {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-barber {
+    display:flex;
+    align-items:center;
+    gap:0.3rem;
+}
+
+.logo-barber h2 {
+    color:var(--color-one);
+    font-size: 1.6rem;
+    font-family:var(--font-bebas);
+    font-weight:normal;
+
+}
+
+.logo-barber img {
+    width: 30px;
+    height:30px;
+}
+
+nav.nav-desktop ul {
+    display:flex;
+    list-style-type:none;
+}
+
+nav.nav-desktop ul li {
+    padding:0 10px;
+}
+
+nav.nav-desktop ul li a {
+    color:var(--color-tree);
+    font-size:1rem;
+    font-family:var(--font-inter);
+    transition: .5s;
+}
+
+nav.nav-desktop ul li a:hover {
+    color:var(--color-nine);
+}
+
+.button-menu a {
+    display:inline-block;
+    padding:14px 40px;
+    background: linear-gradient(135deg, var(--color-seven), var(--color-eight));
+    border-radius:5px;
+    color:var(--color-six);
+    font-size: 1.1rem;
+    transition: .5s;
+    font-family:var(--font-inter);
+}
+
+.button-menu a:hover {
+    transform: scale(1.05);
+}
+
+/* menu mobile */
+.list-mobile {
+    display: none;
+}
+
+.list-mobile img {
+    width: 43px;
+    height:43px;
+    cursor: pointer;
+}
+
+.close-btn {
+    padding:10px 10px;
+}
+
+.close-btn img {
+    width: 38px;
+    height:38px;
+    cursor: pointer;
+}
+
+.menu-mobile {
+    width:0px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    overflow: hidden;
+    transition: width .5s;
+    background-color:var(--color-fourteen);
+    z-index: 999999;
+}
+
+nav.nav-mobile {
+    padding:50px 0;
+}
+
+nav.nav-mobile ul{
+    list-style-type: none;
+}
+
+nav.nav-mobile ul li {
+    padding:20px 2%;
+}
+
+nav.nav-mobile ul li:hover {
+    background-color:var(--color-five);
+    cursor: pointer;
+}
+
+nav.nav-mobile ul li a {
+     color:var(--color-tree);
+    font-size:1rem;
+    font-family:var(--font-inter);
+    transition: .5s;
+}
+
+nav.nav-mobile ul li:hover  a{
+      color:var(--color-nine);
+}
+.menu-mobile.show-menu {
+    width: 300px;
+}
+
+/**/
+
+/* main banner-description */
+main.banner-description {
+  width: 100%;
+  padding:0 2%;
+  overflow: hidden;
+}
+
+.wrapper-group {
+ padding:90px 0;
+}
+
+.compart-details {
+    width:160px;
+    height:37px;
+    text-align: center;
+    background-color:var(--color-eleven);
+    padding:5px 0;
+    border: 2px solid var(--color-ten);
+    border-radius:20px;
+    margin-bottom:0.8rem;
+}
+
+.compart-details h3 {
+    color:var(--color-two);
+    font-size: 1rem;
+    font-family:var(--font-inter);
+    font-weight: normal;
+}
+
+.title-banner h1 {
+    color: var(--color-one);
+    font-size: 4.5rem;
+    font-family:var(--font-bebas);
+    font-weight:normal;
+}
+
+.title-banner p {
+    color:var(--color-tree);
+    font-size: 1rem;
+    font-family:var(--font-inter);
+    max-width:500px;
+    line-height:25px;
+    margin-bottom: 1rem;
+}
+
+.button-main {
+    margin-top: 1.5rem;
+}
+
+.button-main a {
+    display: inline-block;
+    color:var(--color-one);
+    font-size: 1rem;
+    font-family:var(--font-inter);
+    padding:15px  40px;
+    border: 2px solid var(--color-five);
+    border-radius:5px;
+    background: var( --color-twelve);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var( --color-thirteen);
+    transition: .5s;
+}
+
+.button-main a:hover {
+    transform:scale(1.05);
+}
+
+.single-dimension {
+    display:flex;
+    align-items: center;
+    gap:3rem;
+    margin-top: 2rem;
+}
+
+
+.item-info h2 {
+    color:var(--color-two);
+    font-size: 2rem;
+    font-family: var(--font-bebas);
+    font-weight: normal;
+}
+
+.item-info p  {
+    color:var(--color-tree);
+    font-size: 1rem;
+    font-family: var(--font-inter);
+}
+
+/**/

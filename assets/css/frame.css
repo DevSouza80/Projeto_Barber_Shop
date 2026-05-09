@@ -1,0 +1,19 @@
+/* import css */ 
+@import "./color.css";
+/**/
+
+/* Framework css */
+.container-bg {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.flex-division {
+    display:flex;
+}
+
+span {
+    color:var(--color-two);
+}
+/***/
