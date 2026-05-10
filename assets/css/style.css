@@ -150,6 +150,25 @@ nav.nav-mobile ul li:hover  a{
     width: 300px;
 }
 
+.button-mobile {
+    text-align:center;
+}
+
+.button-mobile a {
+     display:inline-block;
+    padding:14px 40px;
+    background: linear-gradient(135deg, var(--color-seven), var(--color-eight));
+    border-radius:5px;
+    color:var(--color-six);
+    font-size: 1.1rem;
+    transition: .5s;
+    font-family:var(--font-inter);
+}
+
+.button-mobile a:hover {
+    transform: scale(1.05);
+}
+
 /**/
 
 /* main banner-description */
