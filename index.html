@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/resete.css" />
     <link rel="stylesheet" href="./assets/css/frame.css" />
-    <link rel="stylesheet" href="./assets/css/media.css"/>
+    <link rel="stylesheet" href="./assets/css/media.css" />
     <!---->
 </head>
 
 <body>
     <!--section hero-bg-->
-    <section style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)),  url('./assets/img/banner-image.png');" class="hero-bg">
+    <section
+        style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)),  url('./assets/img/banner-image.png');"
+        class="hero-bg">
         <header class="menu-navigation">
             <div class="container-bg">
                 <div class="flex-division">
@@ -37,11 +39,11 @@
                         <a href="#">Agendar Agora <i class="bi bi-arrow-right-square-fill"></i></a>
                     </div>
                     <div class="list-mobile" id="list-mobile">
-                        <img src="./assets/img/menu.png" alt="menu"/>
+                        <img src="./assets/img/menu.png" alt="menu" />
                     </div>
                     <div class="menu-mobile" id="menu-mobile">
                         <div class="close-btn" id="close-btn">
-                            <img src="./assets/img/close.png" alt="close"/>
+                            <img src="./assets/img/close.png" alt="close" />
                         </div>
                         <nav class="nav-mobile">
                             <ul>
@@ -52,6 +54,9 @@
                                 <li><a href="#">Contato</a></li>
                             </ul>
                         </nav>
+                        <div class="button-mobile">
+                            <a href="#">Agendar Agora <i class="bi bi-arrow-right-square-fill"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -73,15 +78,15 @@
                     </div>
                     <div class="single-dimension">
                         <div class="item-info">
-                            <h2>15+</h2>
+                            <h2> <span id="anos">0</span>+</h2>
                             <p>Anos no ramo</p>
                         </div>
                         <div class="item-info">
-                            <h2>10k</h2>
+                            <h2> <span id="clientes">0</span>K</h2>
                             <p>Clientes felizes</p>
                         </div>
                         <div class="item-info">
-                            <h2>5★</h2>
+                            <h2> <span id="avaliacao">0</span>★</h2>
                             <p>Avaliação</p>
                         </div>
                     </div>
@@ -90,9 +95,120 @@
         </main>
     </section>
     <!---->
+    <!--section session-servicos-->
+
+    <section class="session-servicos">
+        <div class="container-bg">
+            <div class="title-servicos">
+                <h3>nossos serviços</h3>
+                <h2>Excelência em cada detalhe</h2>
+            </div>
+            <div class="flex-division">
+                <div class="card-servicos">
+                    <div class="icon-servicos">
+                        <img src="./assets/img/icon-scissors.svg" alt="icon-scissors" />
+                    </div>
+                    <div class="title-card">
+                        <h2>Corte Clássico</h2>
+                    </div>
+                    <div class="text-card">
+                        <p>Cortes tradicionais executados
+                            com precisão e estilo atemporal.</p>
+                    </div>
+                    <div class="price-servicos">
+                        <p>R$60,00</p>
+                    </div>
+                </div>
+                <div class="card-servicos">
+                    <div class="icon-servicos">
+                        <img src="./assets/img/icon-brush.svg" alt="icon-brush" />
+                    </div>
+                    <div class="title-card">
+                        <h2>Barba Completa</h2>
+                    </div>
+                    <div class="text-card">
+                        <p>Modelagem, toalha quente e
+                            finalização com produtos premium.</p>
+                    </div>
+                    <div class="price-servicos">
+                        <p>R$45,00</p>
+                    </div>
+                </div>
+                <div class="card-servicos">
+                    <div class="icon-servicos">
+                        <img src="./assets/img/icon-scissors.svg" alt="icon-scissors" />
+                    </div>
+                    <div class="title-card">
+                        <h2>Combo Premium</h2>
+                    </div>
+                    <div class="text-card">
+                        <p>Corte + barba + sobrancelha. A
+                            experiência completa do
+                            cavalheiro.</p>
+                    </div>
+                    <div class="price-servicos">
+                        <p>R$110,00</p>
+                    </div>
+                </div>
+                <div class="card-servicos">
+                    <div class="icon-servicos">
+                        <img src="./assets/img/icon-scissors.svg" alt="icon-scissors" />
+                    </div>
+                    <div class="title-card">
+                        <h2>Hidratação Capilar</h2>
+                    </div>
+                    <div class="text-card">
+                        <p>Tratamento profundo para fios mais saudáveis e brilhantes.</p>
+                    </div>
+                    <div class="price-servicos">
+                        <p>R$50,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---->
+    <!--section session-about-->
+
+    <section class="session-about">
+        <div class="container-bg">
+            <div class="flex-division">
+                <div class="wrapper-img">
+                    <div class="imagem-about">
+                        <img src="./assets/img/Interior da Barbe Shopp.png" alt="interior da barber shopp" />
+                    </div>
+                    <div class="box-description">
+                        <h2>15+</h2>
+                        <p>anos cultivando a arte da barbearia</p>
+                    </div>
+                </div>
+                <div class="right-text">
+                    <div class="sub-about">
+                        <h3>sobre nós</h3>
+                    </div>
+                    <div class="title-about">
+                        <h2>Mais que cortes — uma experiência.</h2>
+                    </div>
+                    <div class="text-about">
+                        <p>A Barbe Shopp nasceu da paixão pela barbearia clássica unida ao
+                            estilo contemporâneo. Em um ambiente acolhedor, com cadeiras de
+                            couro, aroma de tabaco e iluminação quente, oferecemos uma pausa
+                            do mundo lá fora.</p>
+                        <p>Cada barbeiro é um artesão. Cada cliente, único. Trabalhamos com
+                            lâminas afiadas, navalhas tradicionais e produtos que respeitam sua
+                            pele e seus fios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---->
 
     <!--script js-->
     <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/contador.js"></script>
     <!---->
 </body>
 
