@@ -1,26 +1,64 @@
 /* Media Queries */
-@media screen  and (max-width:790px){
-    nav.nav-desktop ul {
-      display:none;
-    }
+@media screen and (max-width:790px) {
+  nav.nav-desktop ul {
+    display: none;
+  }
 
-    .button-menu {
-       display:none;
-    }
+  .button-menu {
+    display: none;
+  }
 
-    .list-mobile {
-        display:block;
-    }
+  .list-mobile {
+    display: block;
+  }
 
-    .menu-mobile {
-       display:block;
-    }
+  .menu-mobile {
+    display: block;
+  }
 }
 
-@media screen and (max-width:701px){
-    .title-banner h1 {
-      font-size: 2.8rem;
-    }
+@media screen and (max-width:701px) {
+  .title-banner h1 {
+    font-size: 2.8rem;
+  }
 
 }
+
+
+@media screen and (max-width:548px) {
+  section.hero-bg {
+    background-position: right;
+  }
+
+  .compart-details {
+    margin: 10px auto;
+  }
+
+  .title-banner h1 {
+    text-align: center;
+  }
+
+  .title-banner p {
+    margin: 0 auto;
+    max-width: 423px;
+    text-align: center;
+  }
+
+
+.button-main {
+    text-align: center;
+}
+
+.single-dimension {
+   justify-content: center;
+}
+
+.item-info h2 {
+   text-align: center;
+}
+
+
+}
+
+
 /**/
