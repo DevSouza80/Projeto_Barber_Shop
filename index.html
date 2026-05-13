@@ -19,7 +19,7 @@
     <section
         style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)),  url('./assets/img/banner-image.png');"
         class="hero-bg">
-        <header class="menu-navigation">
+        <header id="bottom-header" class="menu-navigation">
             <div class="container-bg">
                 <div class="flex-division">
                     <div class="logo-barber">
@@ -36,7 +36,7 @@
                         </ul>
                     </nav>
                     <div class="button-menu">
-                        <a href="#">Agendar Agora <i class="bi bi-arrow-right-square-fill"></i></a>
+                        <a href="#form-contact">Agendar Agora <i class="bi bi-arrow-right-square-fill"></i></a>
                     </div>
                     <div class="list-mobile" id="list-mobile">
                         <img src="./assets/img/menu.png" alt="menu" />
@@ -55,7 +55,7 @@
                             </ul>
                         </nav>
                         <div class="button-mobile">
-                            <a href="#">Agendar Agora <i class="bi bi-arrow-right-square-fill"></i></a>
+                            <a href="#form-contact">Agendar Agora <i class="bi bi-arrow-right-square-fill"></i></a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                             moderno.</p>
                     </div>
                     <div class="button-main">
-                        <a href="#">Ver Serviços</a>
+                        <a href="#top-servicos">Ver Serviços</a>
                     </div>
                     <div class="single-dimension">
                         <div class="item-info">
@@ -97,7 +97,7 @@
     <!---->
     <!--section session-servicos-->
 
-    <section class="session-servicos">
+    <section id="top-servicos" class="session-servicos">
         <div class="container-bg">
             <div class="title-servicos">
                 <h3>nossos serviços</h3>
@@ -233,10 +233,172 @@
     </section>
 
     <!---->
+    <!--section session-galery-->
+    <section class="session-galery">
+        <div class="container-bg">
+            <div class="sub-title">
+                <h3>galeria</h3>
+            </div>
+            <div class="title-galery">
+                <h2>Resultados que falam por si</h2>
+            </div>
+            <div class="carousel-wrapper" id="carousel-wrapper">
+                <div class="carousel-track">
+                    <div style="background-image:url('./assets/img/cliente1.jpg');" class="carousel-item">
 
+                    </div>
+                    <div style="background-image:url('./assets/img/cliente2.jpg');" class="carousel-item"></div>
+                    <div style="background-image:url('./assets/img/cliente3.jpg');" class="carousel-item"></div>
+                    <div style="background-image:url('./assets/img/cliente4.jpg');" class="carousel-item"></div>
+                    <div style="background-image:url('./assets/img/cliente5.jpg');" class="carousel-item"></div>
+                    <div style="background-image:url('./assets/img/cliente6.jpg');" class="carousel-item"></div>
+                    <div style="background-image:url('./assets/img/cliente7.jpg');" class="carousel-item"></div>
+                    <div style="background-image:url('./assets/img/cliente8.jpg');" class="carousel-item"></div>
+                    <div style="background-image:url('./assets/img/cliente9.jpg');" class="carousel-item"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <!--section session-contact-->
+    <section id="form-contact" class="session-contact">
+        <div class="container-bg">
+
+            <div class="flex-division">
+                <div class="fluxo-zone">
+                    <div class="sub-contact">
+                        <h3>Agendamento</h3>
+                    </div>
+                    <div class="title-contact">
+                        <h2>Reserve sua cadeira</h2>
+                    </div>
+                    <div class="text-contact">
+                        <p>Preencha o formulário e nossa equipe confirmará seu horário
+                            pelo WhatsApp.</p>
+                    </div>
+                    <div class="infoBlock">
+                        <div class="coreShell">
+                            <i class="bi bi-telephone"></i>
+                            <p>(11) 98765-4321</p>
+                        </div>
+                        <div class="coreShell">
+                            <i class="bi bi-envelope"></i>
+                            <p>contato@barbeshopp.com</p>
+                        </div>
+                        <div class="coreShell">
+                            <i class="bi bi-geo-alt"></i>
+                            <p>Rua Tiradentes, 178 — Vila Madalena, SP</p>
+                        </div>
+                        <div class="coreShell">
+                            <i class="bi bi-clock"></i>
+                            <p>Seg–Sáb · 09h às 21h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-contact">
+                    <form class="form-layout">
+                        <div class="input-name">
+                            <span>Nome completo</span>
+                            <input type="text" name="nome" placeholder="Seu nome">
+                        </div>
+
+                        <div class="input-wave">
+                            <div class="input-fone">
+                                <span>Telefone</span>
+                                <input type="text" name="telefone" placeholder="(11)99999-0000">
+                            </div>
+                            <div class="input-date">
+                                <span>Data preferida</span>
+                                <input type="date" name="data">
+                            </div>
+                        </div>
+                        <div class="input-hour">
+                            <span>Horário preferido</span>
+                            <input type="time" name="horario">
+                        </div>
+                        <div class="input-service">
+                            <span>Serviço</span>
+                            <select name="servico">
+                                <option value="" disabled selected>Selecione um serviço</option>
+                                <option value="corte">Corte</option>
+                                <option value="barba">Barba</option>
+                                <option value="corte-barba">Corte + Barba</option>
+                                <option value="pigmentacao">Pigmentação</option>
+                            </select>
+                        </div>
+                        <div class="input-message">
+                            <span>Mensagem (opcional)</span>
+                            <textarea name="mensagem" placeholder="Alguma observação?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Agendar horário <i
+                                class="bi bi-calendar-check-fill"></i></button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!---->
+    <!--footer-->
+    <footer>
+        <div class="container-bg">
+            <div class="flex-division">
+                <div class="lightPanel">
+                    <div class="name-logo">
+                       <img src="./assets/img/SVG.svg" alt="svg"/>
+                       <h2>Barbe <span>Shopp</span></h2>
+                    </div>
+                    <div class="text-footer">
+                        <p>A barbearia onde tradição e estilo se encontram. Venha viver a experiência.</p>
+                    </div>
+                    <div class="social-media">
+                        <div class="icon-social">
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="icon-social">
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="sparkLayer">
+                    <h2>Navegação</h2>
+                    <p><a href="#">Início</a></p>
+                    <p><a href="#">Serviços</a></p>
+                    <p><a href="#">Sobre</a></p>
+                    <p><a href="#">Galeria</a></p>
+                    <p><a href="#">Contato</a></p>
+                </div>
+                <div class="softEdge">
+                    <h2>Horário</h2>
+                    <p><a href="#">Seg–Sex · 09h–21h</a></p>
+                    <p><a href="#">Sábado · 09h–19h</a></p>
+                    <p><a href="#">Domingo · Fechado</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---->
+    <!--term-bottom-->
+    <div class="term-bottom">
+        <div class="flex-division">
+            <div class="term-text">
+                <div class="scroll-icon">
+                    <a href="#bottom-header"><i class="bi bi-arrow-up"></i></a>
+                </div>
+                <p>© 2026 Barbe Shopp. Todos os direitos reservados.</p>
+            </div>
+            <div class="primeZone">
+                <p>Desenvolvido por <span>Dev Souza</span></p>
+            </div>
+        </div>
+    </div>
+    <!---->
     <!--script js-->
     <script src="./assets/js/menu.js"></script>
     <script src="./assets/js/contador.js"></script>
+    <script src="./assets/js/carousel.js"></script>
     <!---->
 </body>
 
