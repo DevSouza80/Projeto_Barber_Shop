@@ -325,5 +325,46 @@
 }
 
 
+@media screen and (max-width:430px) {
+  section.hero-bg {
+    background-position:center;
+  }
+
+  .wrapper-group {
+    padding:205px 0;
+  }
+
+  .title-banner h1 {
+    font-size:2.7rem;
+}
+
+.title-servicos h2 {
+    font-size:2.1rem;
+   
+}
+
+  .imagem-about img {
+    width: 423px;
+  }
+
+   .box-description {
+    width:230px;
+    height:100px;
+    left:175px;
+
+  }
+
+  .title-about h2 {
+    font-size: 2.1rem;
+  }
+
+
+  .text-about p {
+    max-width: 385px;
+}
+
+
+}
+
 
 /**/
