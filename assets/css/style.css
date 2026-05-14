@@ -974,5 +974,44 @@ footer {
     font-weight: normal;
 }
 
+/* WhatsApp ícone */
+
+.whatsApp-mensage {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--color-two);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+    animation: pulse 1.8s infinite;
+}
+
+
+.whatsApp-mensage img {
+    width: 45px;
+    height: 45px;
+}
+
+/* animação pulse */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(  --color-twenty-tree);
+    }
+    70% {
+        box-shadow: 0 0 0 20px var( --color-twenty-four);
+    }
+    100% {
+        box-shadow: 0 0 0 0 var( --color-twenty-five);
+    }
+}
+
+/**/
 
 /***/
