@@ -374,6 +374,11 @@
   align-items:last baseline;
 }
 
+  input[type="date"],
+input[type="time"] {
+  padding-right: 10px; /* reduz espaço extra */
+}
+
 
 }
 
