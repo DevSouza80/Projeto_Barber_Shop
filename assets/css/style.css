@@ -21,9 +21,13 @@ section.hero-bg {
 
 header.menu-navigation {
     width: 100%;
-    padding:20px 2%;
+    padding:15px 2%;
     background-color:var(--color-four);
     border-bottom:1px solid var(--color-five);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9999999;
 }
 
 .flex-division {
@@ -179,7 +183,7 @@ main.banner-description {
 }
 
 .wrapper-group {
- padding:90px 0;
+ padding:140px 0;
 }
 
 .compart-details {
@@ -636,7 +640,7 @@ form.form-layout {
     font-weight: normal;
     margin-bottom:0.8rem;
     border-radius: 8px;
-    background-color:transparent;
+    background-color:var(--color-eleven);
     border: 1px solid var(--color-five);
 }
 
@@ -669,7 +673,7 @@ form.form-layout {
     font-weight: normal;
     margin-bottom: 0.8rem;
     border-radius: 8px;
-    background-color: transparent;
+    background-color:var(--color-eleven);
     border: 1px solid var(--color-five);
 }
 
@@ -695,10 +699,8 @@ form.form-layout {
     font-weight: normal;
     margin-bottom: 0.8rem;
     border-radius: 8px;
-    background-color: transparent;
+    background-color:var(--color-eleven);
     border: 1px solid var(--color-five);
-   -webkit-appearance: textfield; 
-  appearance: textfield;
 }
 
 
@@ -729,7 +731,7 @@ form.form-layout {
     font-weight: normal;
     margin-bottom: 0.8rem;
     border-radius: 8px;
-    background-color: transparent;
+    background-color:var(--color-eleven);
     border: 1px solid var(--color-five);
     cursor: pointer;
     appearance: none;
@@ -759,10 +761,8 @@ form.form-layout {
     font-weight: normal;
     margin-bottom: 0.8rem;
     border-radius: 8px;
-    background-color: transparent;
+    background-color:var(--color-eleven);
     border: 1px solid var(--color-five);
- -webkit-appearance: textfield; 
-  appearance: textfield;
 }
 
 .input-message {
@@ -786,7 +786,7 @@ form.form-layout {
     font-weight: normal;
     margin-bottom: 0.8rem;
     border-radius: 8px;
-    background-color: transparent;
+    background-color:var(--color-eleven);
     border: 1px solid var(--color-five);
     height: 120px;
     resize: vertical;
