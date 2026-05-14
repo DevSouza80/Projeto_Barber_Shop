@@ -368,10 +368,11 @@
 
 }
 
- .input-wave {
+
+.input-wave {
   display: inline;
-   flex-direction: column;
-  align-items:last baseline;
+  flex-direction: column;
+  align-items: last baseline;
 }
 
 .input-fone {
@@ -381,6 +382,7 @@
 .input-wave .input-date {
     flex:none; 
 }
+
 
 
 }
