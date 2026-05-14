@@ -54,7 +54,7 @@ const msgWhatsApp = `
 💬 Observação: ${mensagem || 'Nenhuma'}
 `;
 
-const numeroWhatsApp = '5524992630568';
+const numeroWhatsApp = '5524992650966';
 const msgCodificada = encodeURIComponent(msgWhatsApp);
 const linkWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${msgCodificada}`;
 
