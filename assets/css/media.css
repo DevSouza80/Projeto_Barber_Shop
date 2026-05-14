@@ -375,11 +375,11 @@
 }
 
 .input-fone {
-    flex: 0;  
+    flex:none;  
 }
 
 .input-wave .input-date {
-    flex:0; 
+    flex:none; 
 }
 
 
