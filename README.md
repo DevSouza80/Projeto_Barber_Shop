@@ -38,7 +38,9 @@ A **Barbe Shopp** é um site institucional moderno e elegante desenvolvido para 
 
 O site foi pensado para transmitir a identidade de uma barbearia premium: ambiente acolhedor, serviços de qualidade e atendimento personalizado.
 
----
+![Hero — Tradição, Estilo e Precisão](./assets/img/screenshot1.png)
+![Serviços — Excelência em cada detalhe](./assets/img/screenshot2.png)
+![Galeria — Resultados que falam por si](./assets/img/screenshot3.png)
 
 ## ✨ Funcionalidades
 
