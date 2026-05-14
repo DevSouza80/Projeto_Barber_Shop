@@ -23,3 +23,14 @@ document.addEventListener('mousemove', function(e){
 document.addEventListener('mouseup', function(){
     isDragging = false;
 });
+
+carouselTrack.addEventListener('touchstart',function(e){
+    startX = e.touches[0].pageX;
+    scrollLeft = carouselTrack.scrollLeft;
+});
+
+carouselTrack.addEventListener('touchmove',function(e){
+  const x = e.touches[0].pageX;
+  const walk = (startX - x) * 1.5;
+  carouselTrack.scrollLeft = scrollLeft + walk;
+});
