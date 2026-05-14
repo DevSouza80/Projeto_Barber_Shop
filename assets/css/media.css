@@ -363,8 +363,66 @@
     max-width: 385px;
 }
 
+.title-galery h2 {
+    font-size: 2.1rem;
 
 }
 
+
+}
+
+
+
+@media screen and (max-width:390px) {
+  
+  .title-banner h1 {
+    font-size:2.3rem;
+  }
+
+  .item-info p  {
+    font-size:0.8rem;
+}
+
+ .imagem-about img {
+    width:400px;
+  }
+
+   .box-description {
+    width:230px;
+    height:100px;
+    left:157px;
+
+  }
+
+    .title-about h2 {
+    font-size: 1.9rem;
+  }
+
+  
+.title-line h3 {
+ font-size: 1rem;
+}
+}
+
+
+
+@media screen and (max-width:375px){
+   section.hero-bg {
+    background-position:right;
+  }
+   .wrapper-group {
+    padding:130px 0;
+  }
+
+  
+  .text-about p {
+    max-width: 350px;
+}
+
+.line-fil {
+    gap:1rem;
+}
+
+}
 
 /**/
